@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clown Application</title>
 </head>
 <body>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script>
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+    <div class="header">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
+    <div class = "title">
+        <h6 id = "info">F I N D  Y O U R  P U R P O S E</h6>
+        <h1>Clown School Application.</h1>
+        <h2>Personal Info.</h2>
+    </div>
+    <p id="goal">Finding a dream world with Alumni like killer clown, bubbles the laugh master, and giggles the terrifying. Join us Today!</p>
+    <h3>What is your first name?</h3>
+    <p>First Name:  </p>
+    <input><br><br>
+    <h3>What is your last name?</h3>
+    <p>Last Name:  </p>
+    <input><br><br>
+    <h3>What is your email?</h3>
+    <p>Email:  </p>
+    <input><br><br>
+    <h3>What is your date of birth?</h3>
+    <p>DOB:  </p>
+    <input type="date"><br><br>
+    <h3>What is your phone number?</h3>
+    <p>Phone Number:  </p>
+    <input type="number"><br><br>
+    <h3>What is your username?</h3>
+    <p>Username:  </p>
+    <input><br><br>
+    <h3>What is your password?</h3>
+    <p>Password:  </p>
+    <input type="password"><br><br>
 </body>
 </html>

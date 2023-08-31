@@ -1,0 +1,49 @@
+body{
+    font-family: Josefin Sans;
+    margin:0px;
+}
+#info{
+    line-height: 3%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.title{
+    padding: 0.7in 1in 0.5in 1in;
+    background-color: rgb(82, 92, 103);
+    color: white;
+}
+.header {
+    position: fixed;
+    padding: 0.15in;
+    width: 100%;
+    background-color:black;
+}
+  
+  /* The progress container (grey background) */
+.progress-container {
+    width: 60%;
+    height: 6px;
+    background: #ccc;
+    margin: auto;
+}
+  
+  /* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 6px;
+    background: #04AA6D;
+    width: 0%
+}
+#goal{
+    margin: 0.5in 0.5in 0.5in 1in;
+}
+p{
+    margin: 0px 10px 0px 1in;
+    display: inline-block;
+}
+h3{
+    margin: 0px 1in;
+}
+input{
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.508);
+}
